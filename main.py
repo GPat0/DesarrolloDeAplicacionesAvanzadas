@@ -25,7 +25,7 @@ def run_tests():
     st.set("x", {"type":"int","addr":0})       #guarda un dict en x
     st.set("y", 3.14)                          #guarda un numero en y
     assert st.get("x")["type"] == "int"        #lee parte del dict
-    assert st.delete("x")                       #borra x, debe ser true
+    assert st.delete("x")                       
     assert st.get("x") is None                 
 
 def demo():
@@ -34,8 +34,8 @@ def demo():
     s = Stack()                       #nueva pila
     for x in ("id", "+", "num"):      #mete tres elementos
         s.push(x)
-    print("peek:", s.peek(),          #mira tope 
-          "pop:", s.pop(),            #saca tope 
+    print("peek:", s.peek(),          #mira el tope 
+          "pop:", s.pop(),            #saca el tope 
           "peek:", s.peek())          #mira nuevo tope 
 
     print("\n== queue ==")
