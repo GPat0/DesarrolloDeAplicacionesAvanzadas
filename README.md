@@ -2,7 +2,7 @@
 lenguaje: python
 
 ## objetivo
-implementar 3 estructuras simples sin librerias externas y demostrar su uso:
+implementar 3 estructuras simples
 - stack (lifo) con list
 - queue (fifo) con dos pilas internas (listas)
 - symbol table (hash) con dict nativo
